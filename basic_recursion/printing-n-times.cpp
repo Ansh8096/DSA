@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 void problem1(int i,int n) 
-{   // print name N times using recursion...
+{   // print name N times using recursion....
     if(i>n)
     {
       return;
