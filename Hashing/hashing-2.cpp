@@ -7,7 +7,7 @@ int main(){
     
     // precompute:--->
     // int hash[26]={0}; // if there are only lowercaseor uppercase present in the string...
-    int hash1[256]={0}; // if there are Upper_Caes also present int the string..
+    int hash1[256]={0}; // if there are Upper_Caes also present int the string...
     // int hash[1000000]={0}; //(array range inside main is upto 10^6)
     
     for (int i = 0; i < s.size(); i++)
@@ -24,7 +24,7 @@ int main(){
     {
     char ch;
     cin>>ch;
-    // fetch
+    // fetching
     // cout<<ch<<" is repeated "<< hash[ch -'a']<<" times in the string"<<endl;
     cout<<ch<<" is repeated "<< hash1[ch]<<" times in the string"<<endl;
     }
