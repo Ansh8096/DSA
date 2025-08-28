@@ -15,7 +15,7 @@ int main(){
         mpp[arr[i]]++ ;
     }
     
-    // TO FIND THE HIGHEST FREQUENCY ELEMENT IN THE HASHING..
+    // TO FIND THE HIGHEST FREQUENCY ELEMENT IN THE HASHING...
     int hcf=0; 
     int ans=-1;
     
