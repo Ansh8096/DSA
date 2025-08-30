@@ -15,7 +15,7 @@ int main(){
         mpp[arr[i]]++ ;
     }
     
-    // TO FIND THE LOWEST FREQUENCY ELEMENT IN THE HASHING..
+    // TO FIND THE LOWEST FREQUENCY ELEMENT IN THE HASHING...
     int Lf=INT_MAX; 
     int ans=0;
     
