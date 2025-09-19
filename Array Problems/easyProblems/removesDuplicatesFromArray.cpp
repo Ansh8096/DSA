@@ -10,7 +10,7 @@ void remov_dup_frm_arr(int arr[], int n){
       i++;
     }
   }
-  cout << "length of the new array : " << i + 1 << endl; // it will return the length of the new array..
+  cout << "length of the new array : " << i + 1 << endl; // it will return the length of the new array...
   cout << "new array is: ";
   // for printing the new array...
   for (int k = 0; k < i + 1; k++) cout << arr[k] << " ";
