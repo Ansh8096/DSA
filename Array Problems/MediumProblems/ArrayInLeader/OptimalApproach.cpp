@@ -7,7 +7,7 @@ vector<int> leaders_inArray_OP(vector<int> &arr,int n){
     if (arr[i] > maxi){
       ans.push_back(arr[i]);
     }
-    // Keep track of the maxi.....
+    // Keep track of the maxi....
     maxi = max(maxi, arr[i]);
   }
   return ans;
