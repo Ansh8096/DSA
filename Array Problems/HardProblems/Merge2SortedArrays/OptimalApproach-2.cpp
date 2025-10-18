@@ -8,7 +8,7 @@ void swapIfGreater(int a1[], int a2[], int idx1, int idx2)
   }
 }
 void mrg_sortd_arr_OP2(int a1[], int n, int a2[], int m){
-  // len of the imaginary single array:
+  // len of the imaginary single array:--
   int len = n + m;
   // Initial gap:
   int gap = (len / 2) + (len % 2);
