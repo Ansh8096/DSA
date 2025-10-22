@@ -1,13 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 pair<int, int> missing_and_repeating_OP(int a1[], int n){
-  // Find Sn and S2n:
+  // Find Sn and S2n:-
   long long Sn = (n * (n + 1)) / 2;
-  // S2-S2n = X^2-Y^2:
+  // S2-S2n = X^2-Y^2:-
   long long S2n = (n * (n + 1) * ((2 * n) + 1)) / 6;
   long long s = 0, s2 = 0;
 
-  // Calculate S and S2:
+  // Calculate S and S2:-
   for (int i = 0; i < n; i++)
   {
     s += (long long)a1[i];
