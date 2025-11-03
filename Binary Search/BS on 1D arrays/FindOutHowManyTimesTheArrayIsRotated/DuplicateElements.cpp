@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int how_many_times_arr_has_been_rotatd_dup(vector<int> &a, int n){
-  // this one is finding how many times the array has been rotated if the array has duplicate elements......
+  // this one is finding how many times the array has been rotated if the array has duplicate elements...
   int l = 0, h = n - 1;
   int ans = INT_MAX;
   int idx = -1;
