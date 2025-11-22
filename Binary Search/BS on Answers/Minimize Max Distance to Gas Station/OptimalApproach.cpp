@@ -6,7 +6,7 @@ int no_of_gas_st(vector<int> &a, int n, long double dist){
   {
     int no_between = ((a[i] - a[i - 1]) / dist);
     if ((a[i] - a[i - 1]) == (dist * no_between))
-    { //  1 == (2 * 0.5)...
+    { //  1 == (2 * 0.5)
       no_between--;
     }
     cnt += no_between;
