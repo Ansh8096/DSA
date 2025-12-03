@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 string search_in_2D_arr_OP(vector<vector<int>> &a, int n, int m, int tar)
-{
+{  
   int low = 0, high = (n * m) - 1;
   while (low <= high)
   {
@@ -21,8 +21,8 @@ int main(){
     {9, 10, 11, 12}
   };
 
-  int n = matrix.size();
-  int m = matrix[0].size();
+  int n = matrix.size(); // rowSize...
+  int m = matrix[0].size(); // columnSize...
 
   int tar;
   cout<<"enter the target value: "<<endl;
