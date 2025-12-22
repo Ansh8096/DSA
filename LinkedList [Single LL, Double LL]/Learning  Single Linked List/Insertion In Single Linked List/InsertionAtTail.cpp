@@ -8,8 +8,8 @@ public:
 public:
   Node(int data1, Node *next1)
   {
-    data = data1; // Initialize data with the provided value
-    next = next1; // Initialize next with the provided
+    data = data1; // Initialize data with the provided value...
+    next = next1; // Initialize next with the provided...
   }
 
 public:
