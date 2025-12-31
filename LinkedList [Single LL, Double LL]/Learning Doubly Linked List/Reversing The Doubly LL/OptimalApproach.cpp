@@ -10,8 +10,8 @@ public:
   Node(int data1, Node *next1, Node *back1)
   {
     data = data1; // Initialize data with the provided value
-    next = next1; // Initialize next with the provided
-    back = back1; // Initialize back with the provided
+    next = next1; // Initialize next with the provided value
+    back = back1; // Initialize back with the provided value
   }
 
 public:
