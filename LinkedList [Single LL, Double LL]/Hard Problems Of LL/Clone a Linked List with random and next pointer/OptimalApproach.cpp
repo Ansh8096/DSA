@@ -16,7 +16,7 @@ public:
   Node(int data1, Node *next1, Node *random1)
   {
     data = data1; // Initialize data with the provided value
-    next = next1; // Initialize next with the provided
+    next = next1; // Initialize next with the provided value
     random = random1;
   }
 
