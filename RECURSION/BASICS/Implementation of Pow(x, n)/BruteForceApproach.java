@@ -1,6 +1,6 @@
 public class BruteForceApproach {
 
-    private static double implenting_pow_BR(double x,int n){
+    private static double implementing_pow_BR(double x,int n){
         long n1 = 0;
         if(n<0){
             n1 = -1*n;
@@ -22,7 +22,7 @@ public class BruteForceApproach {
     public static void main(String[] args) {
       double x = 2.00000;
       int n = 10;
-      System.out.println(implenting_pow_BR(x,n));
+      System.out.println(implementing_pow_BR(x,n));
 
     }
 }
