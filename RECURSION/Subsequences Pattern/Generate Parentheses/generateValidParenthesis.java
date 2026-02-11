@@ -3,7 +3,7 @@ import java.util.List;
 
 public class generateValidParenthesis {
 
-    // FOR PRINTING
+    // FOR PRINTING...
     private static void printingList(List<String> lt){
         for (String str : lt){
             System.out.print(str + " ");
