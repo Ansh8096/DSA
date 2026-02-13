@@ -13,7 +13,7 @@ public class powerSet {
             for (int i = 0; i < n; i++) {
                 // thw particular bit is set...
                 if ((num & (1 << i)) != 0) {
-                    // adding that particular index s[i] into String...
+                    // adding that particular index s[i] into String
                     str.append(s.charAt(i));
                 }
             }
