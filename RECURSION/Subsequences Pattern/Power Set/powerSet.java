@@ -6,7 +6,7 @@ public class powerSet {
     private static List<String> powerSet(String s) {
         int n = s.length();
         List<String> ans = new ArrayList<>();
-        // running loop from 0 to ((2^n) - 1)...
+        // running loop from 0 to ((2^n) - 1)
         for (int num = 0; num <= (1 << n) - 1; num++) {
             StringBuilder str = new StringBuilder();
             // for finding set bits in 'num'...
