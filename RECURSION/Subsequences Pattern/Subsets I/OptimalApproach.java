@@ -23,7 +23,7 @@ public class OptimalApproach {
         // OPTIMAL APPROACH...
         List<Integer> finalAns = new ArrayList<>();
         subSetsSum_1_OP(0, 0, arr, arr.length, finalAns);
-        Collections.sort(finalAns); // to get answer in sorted way...
+        Collections.sort(finalAns); // to get answer in sorted way
         System.out.println(finalAns);
     }
 }
