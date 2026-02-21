@@ -12,11 +12,11 @@ public class BruteForceApproach {
             for (int i = 0; i < n; i++) {
                 // this particular bit is set...
                 if ((num & (1 << i)) != 0) {
-                    // adding that particular index arr[i] into List...
+                    // adding that particular index arr[i] into List.
                     temp.add(arr[i]);
                 }
             }
-            // Adding every temp List into our answer...
+            // Adding every temp List into our answer.
             ans.add(temp);
         }
 
