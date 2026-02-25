@@ -9,7 +9,7 @@ public class RecRevision {
             return 1;
         }
 
-        // checking upward neighbour...
+        // checking upward neighbour
         if (i > 0 && ansVar == 0 && visited[i - 1][j] == false) {
             if (a[i - 1][j] == word.charAt(idx)) {
                 visited[i - 1][j] = true;
