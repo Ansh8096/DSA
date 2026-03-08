@@ -5,6 +5,6 @@ int toggleTheIthBit(int N ,int i){
 }
 int main(){
     int N = 5, i = 0;
-    cout<<toggleTheIthBit(N,i);
+    cout<<toggleTheIthBit(N,i); // result
     return 0;
 }
