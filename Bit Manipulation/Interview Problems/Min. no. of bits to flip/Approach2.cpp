@@ -5,9 +5,9 @@ int minimumNumberOfBitsToFlip_2(int start,int goal){
     int cnt = 0;
     while (num >= 1)
     {
-        // 'num & 1' checks for odd no...
-        cnt += (num & 1); // counting the set bits only..
-        num = num >> 1; // trimming the num...
+        // 'num & 1' checks for odd no.
+        cnt += (num & 1); // counting the set bits only.
+        num = num >> 1; // trimming the num.
     }
     return cnt;
 }
