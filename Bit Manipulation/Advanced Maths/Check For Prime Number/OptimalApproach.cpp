@@ -17,7 +17,7 @@ string CheckIfNoIsPrimeOrNot_OP(int n){
 }
 int main(){
     
-    cout<<CheckIfNoIsPrimeOrNot_OP(25)
+    cout<<CheckIfNoIsPrimeOrNot_OP(25);
 
     return 0;
 }
