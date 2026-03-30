@@ -12,7 +12,7 @@ bool BalanceAndValidParenthesis(string s)
 
         else
         {
-            // means there is no opening parenthesis present in stack for closing parenthesis...
+            // means there is no opening parenthesis present in stack for closing parenthesis.
             if (stk.size() == 0) return false;
 
             char poped = stk.top();
