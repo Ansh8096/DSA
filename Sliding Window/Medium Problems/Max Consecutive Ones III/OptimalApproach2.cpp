@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+int consecutiveMaxOnes3_OP2(vector<int>&a,int k){
+    int n = a.size();
+    int maxLen = 0 , l = 0 , r = 0 , zeroes = 0;
+    while (r<n){
+        // if(a[r] == 0) zeroes += !a[r];  // just a cool way of writing...
+        if(a[r] == 0) zeroes++;
+        if(zeroes>k){
+            if(a[l] == 0) zeroes--;
+            l++;
+        }
+        if(zeroes <= k){
+            maxLen = max(maxLen,r-l+1);
+        }
+        r++;
+    }
+    return maxLen;
+}
+int main(){
+        
+    int n1;
+    cout<<"Enter the size of the array: "<<endl;
+    cin>>n1;
+
+    vector<int>a(n1);
+    cout<<"Enter the value of the array: "<<endl;
+    for (int i = 0; i < n1; i++) cin>>a[i]; 
+    
+    cout<<consecutiveMaxOnes3_OP2(a,2);
+
+    return 0;
+}
