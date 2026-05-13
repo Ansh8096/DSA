@@ -22,7 +22,7 @@ vector<int>topViewOfBinaryTree_OP(TreeNode* root){
         auto poped = visited.front();
         visited.pop();
         TreeNode* node = poped.first;   
-        int x = poped.second; // vertical level...
+        int x = poped.second; // vertical level.
         
         if(mpp.find(x) == mpp.end()) mpp[x] = node->val;;
         
