@@ -23,7 +23,7 @@ vector<vector<int>> verticalTraversal(TreeNode* root) {
        TreeNode* node = obj.first;
        int x = obj.second.first;
        int y = obj.second.second;
-       // inserting the node in the map correspondibg to his vertical and level...
+       // inserting the node in the map correspondibg to his vertical and level.
        nodes[x][y].push_back(node->val);
 
        if (node->left){
