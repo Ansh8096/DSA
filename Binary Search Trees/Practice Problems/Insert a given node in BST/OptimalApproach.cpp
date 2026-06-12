@@ -16,13 +16,13 @@ void printTree(TreeNode* root, int space = 0, int gap = 5){
 
     if(root == NULL) return;
 
-    // Increase distance between levels
+    // Increase distance between levels..
     space += gap;
 
-    // Print right subtree first
+    // Print right subtree first...
     printTree(root->right, space);
 
-    // Print current node
+    // Print current node...
     cout << endl;
 
     for(int i = gap; i < space; i++){
@@ -31,7 +31,7 @@ void printTree(TreeNode* root, int space = 0, int gap = 5){
 
     cout << root->val << "\n";
 
-    // Print left subtree
+    // Print left subtree...
     printTree(root->left, space);
 }
 TreeNode* insertIntoBST(TreeNode* root, int val) {
