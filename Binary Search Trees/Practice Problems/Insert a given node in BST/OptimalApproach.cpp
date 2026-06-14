@@ -60,7 +60,7 @@ TreeNode* insertIntoBST(TreeNode* root, int val) {
 }
 int main(){
 
-    // Constructing BST:
+    // Constructing BST:-
     //
     //          8
     //        /   \
