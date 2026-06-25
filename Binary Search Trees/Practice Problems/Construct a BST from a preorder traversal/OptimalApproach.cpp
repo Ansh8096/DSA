@@ -16,7 +16,7 @@ void printTree(TreeNode* root, int space = 0, int gap = 5){
 
     if(root == NULL) return;
 
-    // Increase distance between levels
+    // Increase distance between levels:
     space += gap;
 
     // Print right subtree first
