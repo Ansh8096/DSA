@@ -28,7 +28,7 @@ int main() {
     // Adjacency List
     vector<int> adj[n];
 
-    // Undirected Graph
+    // Undirected Graph:
     //
     //      0
     //     / \
