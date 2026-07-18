@@ -62,7 +62,7 @@ int main() {
 
     vector<vector<int>> ans = floodFill(image, sr, sc, color);
 
-    cout << "\nImage After Flood Fill:\n";
+    cout << "\nImage After Flood Fill:-\n";
 
     for(auto &row : ans){
         for(int pixel : row){
