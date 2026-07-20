@@ -26,7 +26,7 @@ vector<vector<int>> floodFill(vector<vector<int>>& a, int sr, int sc, int color)
 }
 int main() {
 
-    // Original Image:
+    // Original Image:-
     //
     // 1 1 1
     // 1 1 0
@@ -35,7 +35,7 @@ int main() {
     // Start: (1,1)
     // New Color: 2
     //
-    // Expected Output:
+    // Expected Output:-
     //
     // 2 2 2
     // 2 2 0
