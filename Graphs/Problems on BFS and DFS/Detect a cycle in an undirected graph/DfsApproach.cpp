@@ -16,7 +16,7 @@ bool detect_dsf(int curr, int parent, vector<int> adj[],vector<bool>& vis){
 bool isCycle2(int V, vector<vector<int>>& edges) {
     vector<bool> vis(V,false);
     
-    // create adjacency list:
+    // create adjacency list:-
     vector<int> adj[V];
     for(int i=0;i<edges.size();i++){
         int v1 = edges[i][0];
