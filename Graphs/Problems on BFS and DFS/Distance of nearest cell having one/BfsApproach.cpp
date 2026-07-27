@@ -57,7 +57,7 @@ int main() {
 
     vector<vector<int>> ans = nearest(grid);
 
-    cout << "\nDistance Matrix:\n";
+    cout << "\nDistance Matrix: \n";
     for (auto &row : ans) {
         for (int cell : row) {
             cout << cell << " ";
