@@ -35,7 +35,7 @@ bool isDirectedGraphCyclic2(int V,vector<vector<int>> &edges) {
 }
 int main() {
 
-    // Example 1: Graph with a cycle
+    // Example 1: Graph with a cycle.
     //
     // 0 → 1 → 2
     //     ↑   ↓
