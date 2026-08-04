@@ -64,7 +64,7 @@ int main() {
     cout << "\n--------------------------\n\n";
 
 
-    // Example 2: Directed Acyclic Graph (DAG)
+    // Example 2: Directed Acyclic Graph (DAG):
     //
     // 0 → 1 → 3
     //  \
