@@ -5,7 +5,7 @@ bool detectCycleBfs(int V, vector<int> adj[], vector<int>& indegree) {
 
     queue<int> q;
 
-    // Nodes with indegree 0
+    // Nodes with indegree 0.
     for (int i = 0; i < V; i++) {
         if (indegree[i] == 0) {
             q.push(i);
