@@ -7,7 +7,7 @@ vector<int> bfs(
 ) {
     queue<int> q;
 
-    // Courses with no prerequisites
+    // Courses with no prerequisites.
     for (int i = 0; i < V; i++) {
         if (indegree[i] == 0) {
             q.push(i);
