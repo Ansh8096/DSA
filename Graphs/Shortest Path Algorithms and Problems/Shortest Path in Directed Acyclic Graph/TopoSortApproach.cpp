@@ -41,7 +41,7 @@ vector<int> shortestPathInDagByTopoSort(int V, int E, vector<vector<int>>& edges
 
         int currDist = dist[node];
         
-        // only vist the adjacent nodes if they are reachable from the source node...
+        // only vist the adjacent nodes if they are reachable from the source node
         if(currDist != INT_MAX){
             for(auto itt : adj[node]){
                 int v = itt.first;
