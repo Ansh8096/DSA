@@ -34,7 +34,7 @@ vector<vector<string>> wordLadder2_BT(vector<string> &words, string &start, stri
                 for(char ch = 'a'; ch <= 'z'; ch++){
                     temp[idx] = ch;
                     if(st.find(temp) != st.end()){
-                        // marks as visisted...
+                        // marks as visisted
                         usedWords.push_back(temp);
 
                         currSequence.push_back(temp);
