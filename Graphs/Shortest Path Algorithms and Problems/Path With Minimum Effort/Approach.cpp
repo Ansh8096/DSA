@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 int minimumEffortPath(vector<vector<int>>& heights) {
-    int n = heights.size(), m = heights[0].size();
+    int n = heights.size();
+    int m = heights[0].size();
 
     vector<vector<int>> dis(n, vector<int>(m, INT_MAX));
     dis[0][0] = 0;
