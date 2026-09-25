@@ -61,7 +61,7 @@ int main()
 
     int ans = countPaths(n, roads);
 
-    cout << "Number of shortest paths: " << ans << endl;
+    cout << "Number of shortest paths:- " << ans << endl;
 
     return 0;
 }
