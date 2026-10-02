@@ -83,7 +83,7 @@ int main() {
 
     int ans = findTheCity(n, edges, distanceThreshold);
 
-    cout << "City with the smallest number of reachable cities: " << ans << endl;
+    cout<<"City with the smallest number of reachable cities: "<< ans << endl;
 
     return 0;
 }
